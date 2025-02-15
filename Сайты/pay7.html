@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title> ФотоУслуги "Цены"</title>
+    <meta charset="UTF-8">
+    <meta name="ФотоУслуги" content="Артем Киселев">
+    <meta name = "keyword" content="ФотоУслуги, услуги, услуги фотошопа">
+    <link rel="stylesheet" href="/Users/artemkiselev/Desktop/Сайты/Card.css">
+    <script>
+      function processOrder() {
+          alert('Спасибо за покупку');
+      }
+  </script>
+
+    <title>Document</title>
+</head>
+<body>  
+  <header>
+    <nav>
+        <nav>
+            <ul class="textheader">
+                <li><a href="ФотоУслуги.html">Главная</a></li>
+                <li><a class="active" href="All,info.html">О нас</a></li>
+                <li><a href="service.html">Услуги</a></li>
+                <li><a href="mailto:kasner02@gmail.com">Почта</a></li>
+            </ul>   
+    </nav> 
+</header>  
+    <div class="container">
+        <div class="card">
+          <button onclick="processOrder()" class="proceed"><svg class="sendicon" width="24" height="24" viewBox="0 0 24 24">
+        <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+      </svg></button>
+         <img src="https://bebestory.ru/upload/medialibrary/6ea/whsj9mu3zmah0xwtioiuv1lodukjucq0.png" class="logo-card">
+       <label>Card number:</label>
+       <input id="user" type="text" class="input cardnumber"  placeholder="1234 5678 9101 1121">
+       <label>Name:</label>
+       <input class="input name"  placeholder="ФИО">
+       <label class="toleft">CCV:</label>
+       <input class="input toleft ccv" placeholder="321">
+        </div>
+        <div class="receipt">
+          <div class="col"><p>Цена (РУБ за час):</p>
+            <h2 class="cost">2000</h2><br>
+          </div>
+          <div class="col">
+            <p>Услуга:</p>
+            <h3 class="bought-items">Фото на кружку</h3><br>
+          </div>
+        </div>
+      </div>  
+</body>
+</html>

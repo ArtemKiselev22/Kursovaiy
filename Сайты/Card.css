@@ -1,0 +1,96 @@
+/* Импорт внешнего шрифта */
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+/* Стили для тела страницы */
+body{
+font-family: 'Work Sans', sans-serif;
+    background: url("Фото/1674316210_catherineasquithgallery-com-p-seraya-myataya-bumaga-fon-foto-1.jpg");
+}
+/* Стили для карточки оплаты */
+.card{
+background: url("https://catherineasquithgallery.com/uploads/posts/2023-01/1674328603_catherineasquithgallery-com-p-serii-fon-s-razvodami-fon-foto-199.png");  border-radius:14px; max-width: 300px; display:block; margin:auto;
+  padding:60px; padding-left:20px; padding-right:20px;box-shadow: 2px 10px 40px black; z-index:99;
+}
+/* Стили для логотипа компании */
+.logo-card{max-width:50px; margin-bottom:15px; margin-top: -19px;}
+/* Стили для меток форм */
+label{display:flex; font-size:10px; color:white; opacity:.4;}
+/* Стили для полей ввода */
+input{font-family: 'Work Sans', sans-serif;background:transparent; border:none; border-bottom:1px solid transparent; color:#dbdce0; transition: border-bottom .4s;}
+/* Стили при фокусе на полях ввода */
+input:focus{border-bottom:1px solid #1abc9c; outline:none;}
+/* Стили для поля ввода номера карты */
+.cardnumber{display:block; font-size:20px; margin-bottom:8px; }
+/* Стили для поля ввода имени */
+.name{display:block; font-size:15px; max-width: 200px; float:left; margin-bottom:15px;}
+/* Стили для метки CCV */
+.toleft{float:left;}
+/* Стили для поля ввода CCV */
+.ccv{width:50px; margin-top:-5px; font-size:15px;}
+/* Стили для чека */
+.receipt{background: rgba(225, 219, 222, 0.28); border-radius:15px; padding:8%; padding-top:200px; max-width:700px; display:block; margin:auto; margin-top:-180px; z-index:-999; position:relative;}
+/* Стили для колонок в чеке */
+.col{width:50%; float:left;}
+/* Стили для поля купленной услуги */
+.bought-item{background:#f5f5f5; padding:2px;}
+/* Стили для списка купленных услуг */
+.bought-items{margin-top:-3px;}
+/* Стили для стоимости услуги */
+.cost{color:rgb(0, 0, 0);}
+/* Стили для продавца */
+.seller{color: #000000;}
+/* Стили для описания */
+.description{font-size: 13px;}
+/* Стили для цены */
+.price{font-size:12px;}
+/* Стили для подтверждения */
+.comprobe{text-align:center;}
+/* Стили для кнопки оплаты */
+.proceed{position:absolute; transform:translate(300px, 10px); width:50px; height:50px; border-radius:50%; background:#000000; border:none;color:white; transition: box-shadow .2s, transform .4s; cursor:pointer;}
+/* Стили при активном состоянии кнопки оплаты */
+.proceed:active{outline:none; }
+/* Стили при фокусе на кнопке оплаты */
+.proceed:focus{outline:none;box-shadow: inset 0px 0px 5px white;}
+/* Стили для иконки отправки */
+.sendicon{filter:invert(100%); padding-top:2px;}
+/* Стили для экранов с шириной менее 600px */
+@media (max-width: 600px){
+  .proceed{transform:translate(250px, 10px);}
+  .col{display:block; margin:auto; width:100%; text-align:center;}
+}
+/* Стили для заголовка страницы */
+header{
+    position: relative;
+    height: 250px;
+    width: 75rem;
+    color: white;
+}
+/* Стили для списка навигационного меню */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+/* Стили для элементов списка навигационного меню */
+nav ul li {
+    display: inline;
+    margin-left: 6%;
+    }
+/* Стили для ссылок в навигационном меню */       
+nav ul li a {
+    text-decoration: none;
+    color:white;
+    }
+/* Стили при наведении на ссылки в навигационном меню */       
+nav ul li a:hover {
+    color: #333;
+    }
+/* Стили для основного блока с навигационным меню и заголовком */
+.textheader{
+    position: relative;
+    max-width: 60%;
+    font-size: 35px;
+    background: inherit;	
+    background: rgba(225, 219, 222, 0.28);
+    border-radius: 15px;
+}
+

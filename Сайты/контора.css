@@ -1,0 +1,117 @@
+/* Стили для текста */
+Text {
+    color: rgb(0, 205, 205);
+    }
+/* Стили для блока */
+    #block {
+        background-color: floralwhite;
+        height: 20rem;
+        width: 300px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        box-shadow: -38px 11px 23px rgba(247, 173, 25, 0.2);    
+    }
+ /* Стили для тела страницы */  
+body{
+    background: url("Фото/1674316210_catherineasquithgallery-com-p-seraya-myataya-bumaga-fon-foto-1.jpg") no-repeat;
+}
+/* Стили для заголовка страницы */
+header{
+    position: relative;
+    height: 70px;
+    width: 75rem;
+    color: white;
+}
+/* Стили для списка навигационного меню */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+/* Стили для элементов списка навигационного меню */
+nav ul li {
+    display: inline;
+    margin-left: 6%;
+    }
+/* Стили для ссылок в навигационном меню */   
+nav ul li a {
+    text-decoration: none;
+    color:white;
+    }
+/* Стили при наведении на ссылки в навигационном меню */       
+nav ul li a:hover {
+    color: #333;
+    }
+/* Стили для основного блока с навигационным меню и заголовком */
+.textheader{
+    position: relative;
+    max-width: 50%;
+    font-size: 35px;
+    background: inherit;	
+    background: rgba(239, 227, 233, 0.28);
+    border-radius: 15px;
+}
+/* Стили для блока с заголовком */
+.TextFoto{
+    margin-top: -25%;
+}
+/* Стили для карточек услуг */
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    background: rgba(242, 221, 232, 0.28);
+    
+  }
+/* Стили для изображений в карточках услуг */
+  .card img {
+    width: 100%;
+    border-radius: 5px;
+    height: 200px;
+  }
+/* Стили для заголовков карточек услуг */ 
+  .card h3 {
+    margin: 15px 0;
+    font-size: 20px;
+    height: 30px;
+
+  }
+  /* Стили для текстового описания в карточках услуг */
+  .card p {
+    font-size: 23px;
+    color: black;
+    height: 70px;
+  }
+/* Стили для кнопок в карточках услуг */
+  .button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #73899e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    margin-left: 110px;
+  }
+/* Стили при наведении на кнопки в карточках услуг */
+  .button:hover{
+    box-shadow: 0 0 5px #6c7b8a,
+    0 0 25px #6c7b8a, 0 0 50px,
+    0 0 100px #6c7b8a, 0 0 200px #6c7b8a;
+  }
+/* Стили для вкладок в навигационном меню */
+.tab {
+    display: inline-block;
+    cursor: pointer;
+}
+/* Стили для активной вкладки в навигационном меню */
+.active {
+    color: black;
+}       
